@@ -1,12 +1,13 @@
 
 #header{
     background-color: rgb(73, 73, 73);
-    padding: 1%;
+    padding: 1.5%;
+    color: white;
     a{
     margin-left: 5%;
     color: white;
     text-decoration: none;
-    border-bottom: 1px solid transparentize($color: rgb(223, 10, 10), $amount: 1);
+    border-bottom: 1px solid transparentize($color: rgb(31, 29, 29), $amount: 1);
     transition: border-bottom 0.2s;
     transition-timing-function: ease-in-out;
     &:hover{
@@ -15,7 +16,7 @@
     }
     #float{
     float: right;
-    padding-right: 4%;
+    margin-right: 4%;
 }
 }
 

@@ -9,9 +9,9 @@ const Header = () =>{
             <a href='/'>Resources</a>
             <a href='/'>About</a>
             <a href='/'>Support</a>
-            <a id="float">
+            <div id="float">
             
-            Hey, Welcome </a>
+            Hey, Welcome </div>
         </div>
     )
 };
