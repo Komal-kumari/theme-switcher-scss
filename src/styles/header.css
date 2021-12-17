@@ -1,1 +1,16 @@
-#header{background-color:#494949;padding:1%}#header a{margin-left:5%;color:#fff;text-decoration:none;border-bottom:1px solid rgba(223,10,10,0);transition:border-bottom .2s;transition-timing-function:ease-in-out}#header a:hover{border-bottom:6px solid #eb0f0f}#header #float{float:right;padding-right:4%}
+
+#header {
+  background-color: #494949;
+  padding: 1%;
+}
+
+a {
+  padding-left: 5%;
+  color: white;
+}
+
+#float {
+  float: right;
+  padding-right: 4%;
+}
+
