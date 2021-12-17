@@ -2,12 +2,20 @@
 #header{
     background-color: rgb(73, 73, 73);
     padding: 1%;
-}
-a{
-    padding-left: 5%;
+    a{
+    margin-left: 5%;
     color: white;
-}
-#float{
+    text-decoration: none;
+    border-bottom: 1px solid transparentize($color: rgb(223, 10, 10), $amount: 1);
+    transition: border-bottom 0.2s;
+    transition-timing-function: ease-in-out;
+    &:hover{
+        border-bottom: 6px solid opacify($color: #eb0f0f, $amount: 1);
+    }
+    }
+    #float{
     float: right;
     padding-right: 4%;
 }
+}
+
