@@ -1,15 +1,42 @@
-#header {
-  background-color: #494949;
-  padding: 1%;
+.user-navigation {
+  background-color: #6c739b;
+  height: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-a {
-  padding-left: 5%;
-  color: white;
+.user-navigation .profile, .user-navigation, .user-navigation .logo {
+  z-index: 1021;
 }
 
-#float {
-  float: right;
-  padding-right: 4%;
+.user-navigation .profile svg {
+  height: 1.2em;
+  width: 2em;
+  cursor: pointer;
+  margin-right: 2em;
+  fill: #a3a3a3;
 }
-/*# sourceMappingURL=header.css.map */
+
+.user-navigation .profile {
+  fill: #fff;
+}
+
+.user-navigation .profile svg:hover {
+  fill: #fff;
+}
+
+.user-navigation .logo a svg {
+  height: 3em;
+}
+
+.logo {
+  margin-right: 2em;
+}
+/*# sourceMappingURL=Header.css.map */
