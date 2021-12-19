@@ -10,8 +10,6 @@ main .main-poster {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 2em 2em 2em 6em;
-  background-color: #e9fbf3;
-  color: #000;
   height: auto;
 }
 

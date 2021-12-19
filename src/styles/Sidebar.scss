@@ -1,20 +1,18 @@
 /* No CSS *//*# sourceMappingURL=Sidebar.css.map */
-$bg-color: #5a8dee;
+@import 'variables';
+@import 'mixins';
 .text-primary{
-    color: $bg-color!important;
-  }
+  color: $bg-color !important;
+}
+
   i{
     margin-left: 30px;
     margin-top: 15px;
   }
-  /* .container-fluid{
-    height: 50px;
-    background-color: $bg-color !important;
-  } */
   .btn-primary {
       border-color: $bg-color !important;
       background-color: $bg-color !important;
-      color: #fff;
+      color: $white-text;
       height: 50px;
   }
   .shadow-md {
@@ -26,7 +24,7 @@ $bg-color: #5a8dee;
   .sidebar{
       width: 280px;
       min-height: 100vh;
-      background-color: #fff;
+      background-color: $white-text;
       position: fixed;
       top: 0;
       left: -100%;

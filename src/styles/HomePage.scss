@@ -1,3 +1,4 @@
+@import 'variables';
 main{
 & .main-poster {
   display: grid;
@@ -5,8 +6,6 @@ main{
   align-items: center;
   justify-content: center;
   padding: 2em 2em 2em 6em;
-  background-color: #e9fbf3;
-  color: #000;
   height: auto;
   @media (max-width: 1000px){
     display: flex;
@@ -36,7 +35,7 @@ main{
     width: 9.2em;
     & a {
       text-decoration: none;
-      color: #000;
+      color: $bg-dark-mode;
     }
     &:hover {
       border: 2px solid black;
@@ -55,7 +54,7 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #000;
+  color: $bg-dark-mode;
   & h2 {
     font-size: 2.5rem;
     margin-bottom: 1em;
@@ -95,7 +94,7 @@ main{
       }
     }
     & p {
-      color: #fff;
+      color: $white-text;
       position: relative;
       bottom: 2em;
       width: 50vw;
@@ -112,18 +111,18 @@ main{
       padding: 0.1em;
       width: 6.8em;
       & button {
-        border: 2px solid #fff;
+        border: 2px solid $white-text;
         background-color: transparent;
         padding: 0.8em;
         border-radius: 3px;
         & a {
           text-decoration: none;
-          color: #fff;
+          color: $white-text;
           font-weight: 400;
         }
       }
       &:hover {
-        border: 2px solid #fff;
+        border: 2px solid $white-text;
         border-radius: 3px;
         & button {
           border: none;
@@ -152,3 +151,4 @@ main{
     width: 60%;
   }
 }
+

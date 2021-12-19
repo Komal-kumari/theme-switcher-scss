@@ -4,6 +4,8 @@ import Gym2 from "../Img/Gym2.jpg";
 import Gym from "../Img/Gym.jpg";
 import Logo from '../Img/GymLogo.png';
 import '../styles/HomePage.css';
+import './Themecard';
+import Themecard from "./Themecard";
 const Main = () => {
     return(
       <main>
@@ -20,6 +22,7 @@ const Main = () => {
         
         <section class="theme-changes">
           <h2>Theme Change</h2>
+          <Themecard/>
         </section>
         
        
