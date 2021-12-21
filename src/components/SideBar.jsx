@@ -28,9 +28,9 @@ const Sidebar = () => {
                         </div>
                         <div className="sd-body">
                             <ul>
-                                <li><a className="sd-link">Theme 1</a></li>
-                                <li><a className="sd-link">Theme 2</a></li>
-                                <li><a className="sd-link">Theme 3</a></li>
+                                <li><h4 className="sd-link">Theme 1</h4></li>
+                                <li><h4 className="sd-link">Theme 2</h4></li>
+                                <li><h4 className="sd-link">Theme 3</h4></li>
                                 </ul>
                         </div>
                     </div>
