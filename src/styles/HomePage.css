@@ -1,0 +1,226 @@
+main .main-poster {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2em 2em 2em 6em;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  main .main-poster {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 2em;
+  }
+}
+
+main .main-poster .gym-info {
+  width: 100%;
+  padding: 2em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 450px) {
+  main .main-poster .gym-info {
+    width: 100vw;
+    padding: 2em 0 0 0;
+  }
+}
+
+main .main-poster .gym-info h1 {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 450px) {
+  main .main-poster .gym-info h1 {
+    font-size: 1.8rem;
+  }
+}
+
+main .main-poster .gym-info p {
+  font-size: 1.1rem;
+  margin: 0.5em 0;
+}
+
+main .main-poster .gym-info div {
+  padding: 0.1em;
+  width: 9.2em;
+}
+
+main .main-poster .gym-info div a {
+  text-decoration: none;
+  color: #000;
+}
+
+main .main-poster .gym-info div:hover {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+main .main-poster .gymPoster img {
+  height: 100%;
+  width: 50vw;
+}
+
+main .theme-changes {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #000;
+}
+
+main .theme-changes h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1em;
+}
+
+main .play {
+  margin-top: 2em;
+  width: 100%;
+}
+
+main .play .bg-img {
+  height: 30em;
+  width: 100%;
+  -webkit-filter: brightness(0.5);
+          filter: brightness(0.5);
+}
+
+main .play .play-info {
+  position: relative;
+  margin-top: -28em;
+  padding: 0 2em;
+}
+
+@media (max-width: 450px) {
+  main .play .play-info {
+    margin-top: -32.5em;
+  }
+}
+
+@media (max-width: 1100px) {
+  main .play .play-info {
+    margin-top: -29em;
+  }
+}
+
+@media (max-width: 800px) {
+  main .play .play-info {
+    margin-top: -32em;
+  }
+}
+
+@media (max-width: 600px) {
+  main .play .play-info {
+    margin-top: -33em;
+    padding: 0 1em;
+  }
+}
+
+main .play .play-info img {
+  height: 10em;
+  width: 15em;
+}
+
+@media (max-width: 1000px) {
+  main .play .play-info img {
+    height: 9em;
+    width: 12em;
+  }
+}
+
+main .play .play-info p {
+  color: #fff;
+  position: relative;
+  bottom: 2em;
+  width: 50vw;
+}
+
+@media (max-width: 800px) {
+  main .play .play-info p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  main .play .play-info p {
+    font-size: 0.9rem;
+  }
+}
+
+main .play .play-info .join-now {
+  position: relative;
+  bottom: 2em;
+  padding: 0.1em;
+  width: 6.8em;
+}
+
+main .play .play-info .join-now button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  padding: 0.8em;
+  border-radius: 3px;
+}
+
+main .play .play-info .join-now button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+main .play .play-info .join-now:hover {
+  border: 2px solid #fff;
+  border-radius: 3px;
+}
+
+main .play .play-info .join-now:hover button {
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  main .main-poster .gymPoster img {
+    height: 100%;
+    width: 80vw;
+  }
+}
+
+@media (max-width: 700px) {
+  main .theme-changes ul li div img {
+    left: none;
+    height: auto;
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  main .main-poster .gym-info img {
+    height: auto;
+    width: 60%;
+  }
+}
+/*# sourceMappingURL=HomePage.css.map */

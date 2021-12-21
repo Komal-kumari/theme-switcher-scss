@@ -1,0 +1,19 @@
+.card-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.card-section .card {
+  margin: 4rem 1.5rem;
+  -webkit-box-shadow: 2px 1px 3px 2px #f0f0f0;
+          box-shadow: 2px 1px 3px 2px #f0f0f0;
+  border-radius: 3px;
+}
+
+.card-section .card p {
+  word-break: break-all;
+}
+/*# sourceMappingURL=Themecard.css.map */

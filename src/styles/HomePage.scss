@@ -1,0 +1,154 @@
+@import 'variables';
+main{
+& .main-poster {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 2em 2em 6em;
+  height: auto;
+  @media (max-width: 1000px){
+    display: flex;
+      flex-direction: column-reverse;
+      padding: 2em;
+  }
+  & .gym-info {
+  width: 100%;
+  padding: 2em;
+  align-items: center;
+  @media (max-width: 450px){
+    width: 100vw;
+      padding: 2em 0 0 0;
+  }
+  & h1 {
+    font-size: 2.5rem;
+    @media (max-width: 450px){
+      font-size: 1.8rem;
+    }
+  }
+  & p {
+    font-size: 1.1rem;
+    margin: 0.5em 0;
+  }
+  & div {
+    padding: 0.1em;
+    width: 9.2em;
+    & a {
+      text-decoration: none;
+      color: $bg-dark-mode;
+    }
+    &:hover {
+      border: 2px solid black;
+      border-radius: 3px;
+    }
+  }
+}
+  & .gymPoster img {
+    height: 100%;
+    width: 50vw;
+  }
+}
+ & .theme-changes {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $bg-dark-mode;
+  & h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+  }
+}
+& .play {
+  margin-top: 2em;
+  width: 100%;
+  & .bg-img {
+    height: 30em;
+    width: 100%;
+    filter: brightness(0.5);
+  }
+  & .play-info {
+    position: relative;
+    margin-top: -28em;
+    padding: 0 2em;
+    @media (max-width: 450px){
+      margin-top: -32.5em;
+    }
+    @media (max-width: 1100px){
+      margin-top: -29em;
+    }
+    @media (max-width: 800px){
+      margin-top: -32em;
+    }
+    @media (max-width: 600px){
+      margin-top: -33em;
+      padding: 0 1em;
+    }
+    & img {
+      height: 10em;
+      width: 15em;
+      @media (max-width: 1000px){
+        height: 9em;
+      width: 12em;
+      }
+    }
+    & p {
+      color: $white-text;
+      position: relative;
+      bottom: 2em;
+      width: 50vw;
+      @media (max-width: 800px){
+        width: 100%;
+      }
+      @media (max-width: 550px){
+        font-size: 0.9rem;
+      }
+    }
+    & .join-now {
+      position: relative;
+      bottom: 2em;
+      padding: 0.1em;
+      width: 6.8em;
+      & button {
+        border: 2px solid $white-text;
+        background-color: transparent;
+        padding: 0.8em;
+        border-radius: 3px;
+        & a {
+          text-decoration: none;
+          color: $white-text;
+          font-weight: 400;
+        }
+      }
+      &:hover {
+        border: 2px solid $white-text;
+        border-radius: 3px;
+        & button {
+          border: none;
+        }
+      }
+    }
+  }
+}
+}
+@media (max-width: 1000px) {
+  main .main-poster .gymPoster img {
+    height: 100%;
+    width: 80vw;
+  }
+}
+@media (max-width: 700px) {
+  main .theme-changes ul li div img {
+    left: none;
+    height: auto;
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  main .main-poster .gym-info img {
+    height: auto;
+    width: 60%;
+  }
+}
+

@@ -1,3 +1,45 @@
-.app{
-    overflow: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+body.dark-mode .card {
+  background-color: rgba(66, 66, 66, 0.712);
+  box-shadow: none;
+  color: white;
+}
+body.dark-mode section{
+  color: #fff;
+}
+
+body.color-mode {
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 1000% 1000%;
+  animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+body.color-mode .card {
+  background-color: rgba(66, 66, 66, 0.712);
+  box-shadow: none;
+  color: white;
+}
+body.color-mode section{
+  color: #fff;
 }
