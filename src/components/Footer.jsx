@@ -13,7 +13,7 @@ const Footer = () => {
         
         <div class="footer2">
           <div class="container">
-            <a href=""><img src={logo1} alt="Tt Logo" height = "40px" width="100px"/></a>
+            <a href="#"><img src={logo1} alt="Tt Logo" height = "40px" width="100px"/></a>
             <ul>
               <li>About</li>
               <li>Help</li>

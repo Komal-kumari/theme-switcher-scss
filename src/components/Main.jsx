@@ -1,7 +1,5 @@
 import React from "react";
-import Gym1 from "../Img/Gym1.jpg";
 import Gym2 from "../Img/Gym2.jpg";
-import Gym from "../Img/Gym.jpg";
 import Logo from '../Img/GymLogo.png';
 import '../styles/HomePage.scss';
 import './Themecard';
@@ -25,10 +23,10 @@ const Main = () => {
         
         <section class="play">
           <div>
-            <img class="bg-img" src={Gym2} />
+            <img class="bg-img" src={Gym2}  />
     
             <div class="play-info">
-              <img src={Logo} />
+              <img src={Logo}/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, accusamus. Enim dolore voluptas error officiis eaque quo ea sit modi inventore excepturi minus nisi, dicta ut, ratione in assumenda iusto!</p>
               <div class="join-now"><button><a href="#">Join Now</a></button></div>
             </div>
