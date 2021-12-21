@@ -1,5 +1,5 @@
 import logo1 from '../Img/GymLogo.png';
-import '../styles/Footer.scss';
+import '../styles/footer.scss';
 const Footer = () => {
     return(
       <footer>
