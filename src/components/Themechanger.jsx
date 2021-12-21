@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import '../styles/Themebtn1.css';
+import '../styles/Themebtn1.scss';
 
 const ThemeChanger = () => {
   const [themeState, setThemeState] = useState(false);

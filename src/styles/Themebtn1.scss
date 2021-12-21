@@ -6,7 +6,7 @@
 
   .btn-1 {
     border: none;
-    color: #000 !important;
+    color: $bg-dark-mode !important;
     &:after {
         position: absolute;
         content: "";
@@ -24,7 +24,7 @@
         transition: all 0.3s ease;
       }
       &:hover {
-        color: #000;
+        color: $bg-dark-mode;
         &:after {
             left: auto;
             right: 0;

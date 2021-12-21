@@ -1,26 +1,35 @@
-import '../styles/Themecard.css';
+import '../styles/Themecard.scss';
 import ThemeChanger from './Themechanger';
 import ThemeChanger1 from './ThemeChanger1';
 import ThemeChanger2 from './ThemeChanger2';
 const Themecard = () => {
     return (
-        <section className='card-section'>
-        <div className="card">
-          <h2>Theme One</h2>
+      <div class="box">
+      <div>
+        <div class="box__item box__item--vue">
+          <i class="fab fa-vuejs"></i>
+          <span>Theme1</span>
           <ThemeChanger1/>
-          <p>Lite Mode</p>
         </div>
-        <div className="card">
-          <h2>Theme Two</h2>
+        <div class="box__bg"></div>
+      </div>
+      <div>
+        <div class="box__item box__item--react">
+          <i class="fab fa-react"></i>
+          <span>Theme2</span>
           <ThemeChanger/>
-          <p>Dark Mode</p>
         </div>
-        <div className="card">
-          <h2>Theme Three</h2>
+        <div class="box__bg"></div>
+      </div>
+      <div>
+        <div class="box__item box__item--angular">
+          <i class="fab fa-angular"></i>
+          <span>Theme3</span>
           <ThemeChanger2/>
-          <p>Color Mode</p>
         </div>
-        </section>
+        <div class="box__bg"></div>
+      </div>
+    </div>
     );
 }
 

@@ -3,21 +3,17 @@ import Gym1 from "../Img/Gym1.jpg";
 import Gym2 from "../Img/Gym2.jpg";
 import Gym from "../Img/Gym.jpg";
 import Logo from '../Img/GymLogo.png';
-import '../styles/HomePage.css';
+import '../styles/HomePage.scss';
 import './Themecard';
+import {GiGymBag} from 'react-icons/gi';
 import Themecard from "./Themecard";
 const Main = () => {
     return(
       <main>
         <section class="main-poster">
-          <div class='gym-info'>
-            <img src={Gym1} height="250px" width="350px"/>
-            <h1><strong>Powered By </strong></h1>
-            <p>Factory Gym</p>
-          </div>
-          <div class='gymPoster'>
-            <img src={Gym} alt="GYM Poster"/>
-          </div>
+          <h1 className="evolve">Evolve Gym</h1>
+          <GiGymBag className="icon" size={70}/>
+          <h3>Powered by MuscleBlaze</h3>
         </section>
         
         <section class="theme-changes">

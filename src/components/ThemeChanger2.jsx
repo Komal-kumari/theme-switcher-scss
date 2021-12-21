@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import '../styles/Themebtn2.css';
+import '../styles/Themebtn2.scss';
 
 const ThemeChanger2 = () => {
   const [themeState, setThemeState] = useState(false);
@@ -22,7 +22,7 @@ const ThemeChanger2 = () => {
   })
   return (
     <div>
-      <button onClick={handleChange} className='custom-btn btn-2'>Color Mode</button>
+      <button onClick={handleChange} className='custom-btn btn-2'>{themeState ? 'Color Mode' : 'Lite Mode'}</button>
     </div>
   )
 }

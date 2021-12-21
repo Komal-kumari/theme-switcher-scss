@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import 'variables';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body.dark-mode {
+  background-color: $grey-dark-mode;
+  color: $white-text;
+  & .card {
+    background-color: $grey-dark-mode;
+    box-shadow: none;
+    color: $white-text;
+  }
+  & .btn-primary{
+    background-color: $bg-dark-mode !important;
+  }
+  & section{
+    color: $white-text;
+  }
+  & .footer2{
+    background-color: $bg-dark-mode;
+  }
+  & .footer1{
+    background-color: #A9A9A9;
+  }
+  & .sidebar{
+    background-color: $bg-dark-mode !important;
+  }
+}
+
+
+body.color-mode {
+  color: $white-text;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 1000% 1000%;
+  animation: gradientBG 15s ease infinite;
+  & .card {
+    background-color: rgba(66, 66, 66, 0.712);
+    box-shadow: none;
+    color: $white-text;
+  }
+  & section{
+    color: $white-text;
+  }
+  & .btn-primary{
+    background-color: $bg-color-mode !important;
+  }
+  & .footer2{
+    background-color: $bg-color-mode;
+  }
+  & .footer1{
+    background-color: #FF69B4;
+  }
+  & .sidebar{
+    background-color: #FF69B4;
+  }
+}
+@keyframes gradientBG {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}

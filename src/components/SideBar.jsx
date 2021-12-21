@@ -1,4 +1,4 @@
-import '../styles/Sidebar.css';
+import '../styles/Sidebar.scss';
 import { useState } from 'react';
 const Sidebar = () => {
     const [isOpen, setIsopen] = useState(false);
@@ -19,7 +19,7 @@ const Sidebar = () => {
                             </div>
                         </div>
                     </nav>
-                    <div className={`sidebar ${isOpen == true ? 'active' : ''}`}>
+                    <div className={`sidebar ${isOpen === true ? 'active' : ''}`}>
                         <div className="sd-header">
                             <h4 className="mb-0">Sidebar Header</h4>
                             <div className="btn btn-primary" onClick={ToggleSidebar}><i className="fa fa-times"></i></div>

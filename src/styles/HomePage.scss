@@ -1,48 +1,26 @@
 @import 'variables';
 main{
 & .main-poster {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  padding: 2em 2em 2em 6em;
+  padding-top: 6rem;
   height: auto;
-  @media (max-width: 1000px){
-    display: flex;
-      flex-direction: column-reverse;
-      padding: 2em;
-  }
-  & .gym-info {
-  width: 100%;
-  padding: 2em;
-  align-items: center;
-  @media (max-width: 450px){
-    width: 100vw;
-      padding: 2em 0 0 0;
-  }
+
   & h1 {
-    font-size: 2.5rem;
-    @media (max-width: 450px){
-      font-size: 1.8rem;
-    }
+    font-size: 5rem !important;
+    margin: 0;
+    letter-spacing: 1rem;
+  }
+  & h3{
+    font-size: 1rem !important;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+    text-align: center;
   }
   & p {
     font-size: 1.1rem;
     margin: 0.5em 0;
   }
-  & div {
-    padding: 0.1em;
-    width: 9.2em;
-    & a {
-      text-decoration: none;
-      color: $bg-dark-mode;
-    }
-    &:hover {
-      border: 2px solid black;
-      border-radius: 3px;
-    }
-  }
-}
   & .gymPoster img {
     height: 100%;
     width: 50vw;
@@ -132,23 +110,24 @@ main{
   }
 }
 }
-@media (max-width: 1000px) {
-  main .main-poster .gymPoster img {
-    height: 100%;
-    width: 80vw;
-  }
-}
-@media (max-width: 700px) {
-  main .theme-changes ul li div img {
-    left: none;
-    height: auto;
-    width: 50%;
-  }
-}
-@media (max-width: 600px) {
-  main .main-poster .gym-info img {
-    height: auto;
-    width: 60%;
-  }
+
+@media (max-width: 800px){
+  main .main-poster{
+    padding-top: 2rem;
+  }  
 }
 
+@media (max-width: 800px){
+  main .main-poster h1{
+  font-size: 2rem !important;
+  text-align: center !important;
+}
+}
+@media (max-width: 800px){
+  main .main-poster h3{
+    font-size: 1rem !important;
+  text-align: center !important;
+  }
+  
+}
+  
