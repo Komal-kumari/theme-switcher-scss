@@ -1,5 +1,7 @@
 import '../styles/Sidebar.scss';
 import { useState } from 'react';
+import {GiHamburgerMenu} from 'react-icons/gi';
+import {GiCrossMark} from 'react-icons/gi';
 const Sidebar = () => {
     const [isOpen, setIsopen] = useState(false);
 
@@ -14,7 +16,7 @@ const Sidebar = () => {
                         <div className="container-fluid p-2">
                             <div className="form-inline ml-auto">
                                 <div className="btn btn-primary" onClick={ToggleSidebar} >
-                                    <i className="fa fa-bars"></i>
+                                <GiHamburgerMenu className='ham'/>
                                 </div>
                             </div>
                         </div>
@@ -22,7 +24,7 @@ const Sidebar = () => {
                     <div className={`sidebar ${isOpen === true ? 'active' : ''}`}>
                         <div className="sd-header">
                             <h4 className="mb-0">Sidebar Header</h4>
-                            <div className="btn btn-primary" onClick={ToggleSidebar}><i className="fa fa-times"></i></div>
+                            <div className="btn btn-primary" onClick={ToggleSidebar}><GiCrossMark className='cross'/></div>
                         </div>
                         <div className="sd-body">
                             <ul>
