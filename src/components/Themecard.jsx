@@ -2,12 +2,14 @@ import '../styles/Themecard.scss';
 import ThemeChanger from './Themechanger';
 import ThemeChanger1 from './ThemeChanger1';
 import ThemeChanger2 from './ThemeChanger2';
+import {BiColorFill, BiAdjust} from 'react-icons/bi';
+import {MdDarkMode} from 'react-icons/md';
 const Themecard = () => {
     return (
       <div class="box">
       <div>
         <div class="box__item box__item--vue">
-          <i class="fab fa-vuejs"></i>
+          <BiAdjust size={40}/>
           <span>Theme1</span>
           <ThemeChanger1/>
         </div>
@@ -15,7 +17,7 @@ const Themecard = () => {
       </div>
       <div>
         <div class="box__item box__item--react">
-          <i class="fab fa-react"></i>
+          <MdDarkMode size={40}/>
           <span>Theme2</span>
           <ThemeChanger/>
         </div>
@@ -23,7 +25,7 @@ const Themecard = () => {
       </div>
       <div>
         <div class="box__item box__item--angular">
-          <i class="fab fa-angular"></i>
+          <BiColorFill size={40}/>
           <span>Theme3</span>
           <ThemeChanger2/>
         </div>

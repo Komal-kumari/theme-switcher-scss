@@ -2,15 +2,16 @@
 footer {
     margin-top: 10.4em;
    & .footer1 {
-     background-color: $bg-color;
+    background-color: $bg-color;
     display: flex;
     justify-content: space-between;
     padding: 1.5em 0 2em 0;
     & ul {
         display: flex;
-        padding: 0;
+        text-align: center;
         & li {
             list-style: none;
+        
           }
       }
   }
@@ -18,7 +19,7 @@ footer {
   & .footer2 
   {
     background-color: #385EFC;
-      & div {
+    & div {
     display: flex;
     align-items: center;
     }
