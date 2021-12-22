@@ -8,7 +8,7 @@
 body.dark-mode {
   background-color: $grey-dark-mode;
   color: $white-text;
-  & .card {
+  & box__item {
     background-color: $grey-dark-mode;
     box-shadow: none;
     color: $white-text;
@@ -36,8 +36,8 @@ body.color-mode {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   
   animation: gradientBG 15s ease infinite;
-  & .card {
-    background-color: rgba(66, 66, 66, 0.712);
+  & .box__item {
+    background-color: #FF69B4;
     box-shadow: none;
     color: $white-text;
   }

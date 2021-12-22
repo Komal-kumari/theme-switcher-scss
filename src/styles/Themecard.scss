@@ -40,7 +40,7 @@
 			font-weight: 700;
 		}
 		
-		&--vue {
+		&--theme1 {
 			color: $bg-color;
 			
 			&:hover {
@@ -54,7 +54,7 @@
 			}
 		}
 		
-		&--react {
+		&--theme2 {
 			color: $grey-dark-mode;
 			
 			&:hover {
@@ -68,7 +68,7 @@
 			}
 		}
 		
-		&--angular {
+		&--theme3 {
 			color: $bg-color-mode;
 			
 			&:hover {

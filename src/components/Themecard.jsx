@@ -8,7 +8,7 @@ const Themecard = () => {
     return (
       <div class="box">
       <div>
-        <div class="box__item box__item--vue">
+        <div class="box__item box__item--theme1">
           <BiAdjust size={40}/>
           <span>Theme1</span>
           <ThemeChanger1/>
@@ -16,7 +16,7 @@ const Themecard = () => {
         <div class="box__bg"></div>
       </div>
       <div>
-        <div class="box__item box__item--react">
+        <div class="box__item box__item--theme2">
           <MdDarkMode size={40}/>
           <span>Theme2</span>
           <ThemeChanger/>
@@ -24,7 +24,7 @@ const Themecard = () => {
         <div class="box__bg"></div>
       </div>
       <div>
-        <div class="box__item box__item--angular">
+        <div class="box__item box__item--theme3">
           <BiColorFill size={40}/>
           <span>Theme3</span>
           <ThemeChanger2/>
