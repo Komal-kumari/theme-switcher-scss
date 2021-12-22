@@ -8,13 +8,16 @@
 body.dark-mode {
   background-color: $grey-dark-mode;
   color: $white-text;
-  & box__item {
-    background-color: $grey-dark-mode;
+  & .box__item {
+    background-color: $bg-dark-mode;
     box-shadow: none;
     color: $white-text;
   }
   & .btn-primary{
     background-color: $bg-dark-mode !important;
+  }
+  & .btn-1{
+     color: $white-text !important;
   }
   & section{
     color: $white-text;
