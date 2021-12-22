@@ -9,6 +9,10 @@ const ThemeChanger2 = () => {
     if (themeState) {
       localStorage.setItem('Theme', 'color');
       document.body.classList.add('color-mode');
+    }
+    if (themeState) {
+      localStorage.setItem('Theme', 'dark');
+      document.body.classList.remove('dark-mode');
     } else {
       localStorage.setItem('Theme', 'light');
       document.body.classList.remove('color-mode');
@@ -18,6 +22,8 @@ const ThemeChanger2 = () => {
     const getTheme = localStorage.getItem('Theme');
     if (getTheme === 'color') 
     return  document.body.classList.add('color-mode');
+    if(getTheme === 'dark')
+    return document.body.classList.remove('dark-mode');
     
   })
   return (

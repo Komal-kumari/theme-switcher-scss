@@ -18,13 +18,10 @@ const Main = () => {
           <h2>Theme Change</h2>
           <Themecard/>
         </section>
-        
        
-        
         <section class="play">
           <div>
             <img class="bg-img" src={Gym2}  />
-    
             <div class="play-info">
               <img src={Logo}/>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, accusamus. Enim dolore voluptas error officiis eaque quo ea sit modi inventore excepturi minus nisi, dicta ut, ratione in assumenda iusto!</p>
